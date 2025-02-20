@@ -1,0 +1,139 @@
+/**************************************************************************************/
+/* Author: Romas James Hada, Aiden Fatta, James Mendez, Tre Garcia					  */
+/**************************************************************************************/
+body{
+	font-size: 20px;
+	background-color: hsl(240, 100%, 10%);
+}
+
+h1{
+	border: 1px solid black;
+	border-radius: 60px;
+	padding: 1%;
+	background-color: hsl(240, 100%, 27%);
+	text-align: center;
+	color: white;
+}
+
+h3{
+	border: 1px solid black;
+	border-radius: 60px;
+	padding: 1%;
+	background-color: hsl(240, 100%, 27%);
+	text-align: center;
+	color: white;
+}
+
+p{
+	font-family: "Times New Roman", Calibri, Tahoma;
+	line-height: 200%;
+	font-weight: bold;
+}
+
+tr{
+	border: 1px solid black;
+	border-radius: 60px;
+}
+
+td{
+	border: 1px solid black;
+	border-radius: 60px;
+}
+
+.section{
+	border: 1px inset lightgrey;
+	margin-bottom: 1%;
+	border-radius: 30px;
+	padding-left: 2%;
+	text-align: center;
+	background-color: white;
+}
+
+.section:nth-child(odd){
+	background-color: hsl(240, 100%, 37%);
+	color: white;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: grey;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.section img{
+	text-align: center;
+	height: 30%;
+	animation: fadeAndMove 3s linear;
+	position: relative;
+}
+
+.footer{
+	text-align: center;
+	font-style: italic;
+	font-size: 80%;
+}
+
+.footer:hover{
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.footer hr{
+	width: 80%;
+	border: 1px solid lightgrey;
+}
+
+@keyframes fadeAndMove{
+    from{
+        opacity: 0%;
+		left: -300px;
+    }
+    to{
+        opacity: 100%;
+		left: 0px;
+    }
+}
+
+.navbar ul{
+	border: 1px solid black;
+	border-radius: 60px;
+	list-style-type: none;
+	background-color: hsl(240, 100%, 27%);
+	padding: 0px;
+	margin-bottom: 1%;
+	overflow: hidden;
+}
+
+.navbar li{
+	padding-left: 5%;
+	padding-right: 5%;
+	float: left;
+}
+
+.navbar a{
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
+}
+
+.navbar a:hover{
+	background-color: hsl(240, 100%, 37%);
+}
